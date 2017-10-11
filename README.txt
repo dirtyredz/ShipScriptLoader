@@ -1,6 +1,6 @@
 [center][color=red][size=36pt]ShipScriptLoader[/size][/color][/center]
 
-A small mod designed to automatically load a script onto the players shit, regardless of if they change ships or not.
+A small mod designed to automatically load a script onto the players ship, regardless of if they change ships or not.
 The script will always be loaded.
 
 This mod will be extremly usefull to other modders and server owners.
@@ -13,18 +13,18 @@ Unzip the zip file and drag/drop the contents into the avorion directory.
 
 Step 2.
 Navigate to:
-
-    data/scripts/server/server.lua
+    [quote]data/scripts/server/server.lua[/quote]
 
 and place these 2 lines of code at the bottom of the file:
 
+    [code]
     local s, b = pcall(require, 'mods/ShipScriptLoader/scripts/server/server')
     if s then if b.onPlayerLogIn then local a = onPlayerLogIn; onPlayerLogIn = function(c) a(c); b.onPlayerLogIn(c); end end end
+    [/code]
 
 Step 3.
 Navigate to:
-
-    mods/ShipScriptLoader/config/ShipScriptLoader.lua
+    [quote]mods/ShipScriptLoader/config/ShipScriptLoader.lua[/quote]
 
 and add the script path of the script you want to autoload using the Config.Add() function
 
