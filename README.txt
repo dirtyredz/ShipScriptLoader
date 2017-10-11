@@ -30,7 +30,8 @@ and add the script path of the script you want to autoload using the Config.Add(
 
 [b][size=32pt]DOWNLOAD[/size][/b]
 [hr]
-https://github.com/dirtyredz/ShipScriptLoader/releases/download/1.0.0/ShipScriptLoader.v1.0.0.zip
+[url=https://github.com/dirtyredz/ShipScriptLoader/releases/download/1.0.0/ShipScriptLoader.v1.0.0.zip]ShipScriptLoader v1.0.0[/url]
+
 
 [b][size=24pt]GITHUB[/size][/b]
 [hr]
