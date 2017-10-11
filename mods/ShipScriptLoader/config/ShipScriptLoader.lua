@@ -20,11 +20,4 @@ end
 -- Example use to add a script to a players ship
 -- Config.Add("mods/YourMod/scripts/entity/YourMod.lua")
 
-Config.Add("mods/StatusDisplayer/scripts/entity/StatusDisplayer.lua")
-Config.Add("mods/CrewTransport/scripts/entity/CrewTransport.lua")
-Config.Add("mods/ModInfo/scripts/entity/modinfo.lua")
-Config.Add("mods/DirtyBuoy/scripts/entity/BuoyLauncher.lua")
-Config.Add("mods/SectorOverview/scripts/entity/sectoroverview.lua")
-Config.Add("mods/CarrierCraftOrders/scripts/entity/CarrierCraftOrders.lua")
-
 return Config
