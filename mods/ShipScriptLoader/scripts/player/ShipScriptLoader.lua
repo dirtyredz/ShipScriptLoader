@@ -26,7 +26,13 @@ if onServer() then
     if faction.isPlayer or faction.isAlliance then
       for _,script in pairs(ShipScriptLoader.Scripts) do
         if not ship:hasScript(script) then
-          ship:addScriptOnce(script)
+            local test = script:gsub(".lua", "")
+            local e,s = pcall(require,test)
+            if e then
+                ship:addScriptOnce(script)
+            else
+                print('Failed to locate script:',script)
+            end
         end
       end
     end

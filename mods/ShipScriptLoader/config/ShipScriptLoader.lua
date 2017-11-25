@@ -3,7 +3,7 @@ Config.author = 'Dirtyredz'
 Config.name = 'Ship Script Loader'
 Config.homepage = "https://github.com/dirtyredz/AvorionBoilerPlate"
 Config.version = {
-    major=1, minor=0, patch = 0,
+    major=1, minor=1, patch = 0,
     string = function()
         return  Config.version.major .. '.' ..
                 Config.version.minor .. '.' ..
